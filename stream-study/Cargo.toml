@@ -1,0 +1,11 @@
+[package]
+name = "stream-study"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1"
+mini-redis = "0.4"
+async-stream = "0.3"
+rand = "0.8"
